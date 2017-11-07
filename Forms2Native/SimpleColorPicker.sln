@@ -1,6 +1,6 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleColorPicker", "SimpleColorPicker\SimpleColorPicker.csproj", "{FA39D65F-8208-48D4-8555-B8FBA4BB0FC3}"
 EndProject
@@ -9,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleColorPicker.Droid", "Droid\SimpleColorPicker.Droid.csproj", "{D74084F6-C58F-4979-8CC5-9AF69E9030E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleColorPicker.UWP", "UWP\SimpleColorPicker.UWP.csproj", "{1E581C37-D893-4523-9B34-EAD32325B4F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleColorPicker.Tizen", "Tizen\SimpleColorPicker.Tizen.csproj", "{D7105FA1-04D6-4A53-B35F-716FF2016B90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -124,8 +126,35 @@ Global
 		{1E581C37-D893-4523-9B34-EAD32325B4F7}.Release|x86.ActiveCfg = Release|x86
 		{1E581C37-D893-4523-9B34-EAD32325B4F7}.Release|x86.Build.0 = Release|x86
 		{1E581C37-D893-4523-9B34-EAD32325B4F7}.Release|x86.Deploy.0 = Release|x86
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|ARM.Build.0 = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|iPhone.Build.0 = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|x64.Build.0 = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7105FA1-04D6-4A53-B35F-716FF2016B90}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87F05517-36B0-49EF-B5E7-F66DE011193C}
 	EndGlobalSection
 EndGlobal
