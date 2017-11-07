@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithGestures", "WorkingWithGestures\WorkingWithGestures.csproj", "{7E861932-CB53-41C9-A8A7-08C5BABF867E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithGestures.Android", "Android\WorkingWithGestures.Android.csproj", "{59E61A08-D3C8-4236-A3BD-44197E27C0ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithGestures.UWP", "UWP\WorkingWithGestures.UWP.csproj", "{7D9247C1-5612-4877-B648-31DBF837EDE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithGestures.Tizen", "Tizen\WorkingWithGestures.Tizen.csproj", "{962A1FEE-22A0-40E2-B971-9F97CBB1720E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -265,9 +267,68 @@ Global
 		{7D9247C1-5612-4877-B648-31DBF837EDE3}.Release|x86.ActiveCfg = Release|x86
 		{7D9247C1-5612-4877-B648-31DBF837EDE3}.Release|x86.Build.0 = Release|x86
 		{7D9247C1-5612-4877-B648-31DBF837EDE3}.Release|x86.Deploy.0 = Release|x86
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|Mixed Platforms.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|ARM.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|ARM.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|Mixed Platforms.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|x64.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.AppStore|x86.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|x64.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Debug|x86.Build.0 = Debug|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|ARM.Build.0 = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|iPhone.Build.0 = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|x64.ActiveCfg = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|x64.Build.0 = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|x86.ActiveCfg = Release|Any CPU
+		{962A1FEE-22A0-40E2-B971-9F97CBB1720E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E802337-9A70-4829-A273-CDB2C6EBA138}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Android\WorkingWithGestures.Android.csproj
