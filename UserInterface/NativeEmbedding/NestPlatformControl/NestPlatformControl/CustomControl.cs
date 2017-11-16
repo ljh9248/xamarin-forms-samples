@@ -105,4 +105,54 @@ namespace NestPlatformControl
     }
 
 #endif
+	#if __TIZEN__
+	public class CustomControl : ElmSharp.Label
+	{
+		int _fontSize = 28;
+
+		public CustomControl(ElmSharp.EvasObject parent) : base(parent)
+		{
+			LineWrapType = ElmSharp.WrapType.Word;
+			IsEllipsis = false;
+			MinimumHeight = 300;
+			SetVerticalTextAlignment("elm.text", 0.5);
+		}
+
+		public override string Text
+		{
+			get { return base.Text; }
+			set
+			{
+				base.Text = value.ToUpper();
+				UpdateInternalText();
+			}
+		}
+
+		public int FontSize
+		{
+			get
+			{
+				return _fontSize;
+			}
+
+			set
+			{
+				if (value != _fontSize)
+				{
+					_fontSize = value;
+					UpdateInternalText();
+				}
+			}
+		}
+
+		void UpdateInternalText()
+		{
+			var textblock = EdjeObject["elm.text"];
+			if (textblock != null)
+			{
+				textblock.TextStyle = $"DEFAULT='color=#FFFFFFFF backing_color=#00000000 backing=on font_size={FontSize} align=left wrap=word'";
+			}
+		}
+	}
+#endif
 }
