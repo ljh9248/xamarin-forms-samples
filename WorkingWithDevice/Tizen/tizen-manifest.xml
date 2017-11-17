@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="WorkingWithDevice.Tizen" version="1.0.7" api-version="4" xmlns="http://tizen.org/ns/packages">
+    <profile name="common" />
+    <ui-application appid="org.tizen.example.WorkingWithDevice.Tizen" exec="WorkingWithDevice.Tizen.dll" multiple="false" taskmanage="true" splash-screen-display="true" type="dotnet" launch_mode="single">
+        <icon>WorkingWithDevice.Tizen.png</icon>
+        <label>WorkingWithDevice</label>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true" />
+        <splash-screens />
+    </ui-application>
+    <shortcut-list />
+    <privileges>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+    </privileges>
+    <provides-appdefined-privileges />
+</manifest>
