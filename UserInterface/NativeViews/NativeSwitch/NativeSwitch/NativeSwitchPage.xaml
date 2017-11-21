@@ -5,6 +5,8 @@
 		xmlns:androidWidget="clr-namespace:Android.Widget;assembly=Mono.Android;targetPlatform=Android"
         xmlns:androidLocal="clr-namespace:NativeSwitch.Droid;assembly=NativeSwitch.Droid;targetPlatform=Android"
 		xmlns:win="clr-namespace:Windows.UI.Xaml.Controls;assembly=Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime;targetPlatform=Windows"
+        xmlns:tizenWidget="clr-namespace:ElmSharp;assembly=ElmSharp;targetPlatform=Tizen"
+        xmlns:tizenLocal="clr-namespace:NativeSwitch.Tizen;assembly=NativeSwitch.Tizen;targetPlatform=Tizen"
 		xmlns:local="clr-namespace:NativeSwitch"
 		x:Class="NativeSwitch.NativeSwitchPage">
 	<StackLayout Margin="20">
@@ -13,5 +15,6 @@
 		<ios:UISwitch On="{Binding Path=IsSwitchOn, Mode=TwoWay, UpdateSourceEventName=ValueChanged}" OnTintColor="{x:Static ios:UIColor.Red}" ThumbTintColor="{x:Static ios:UIColor.Blue}" />
 		<androidWidget:Switch x:Arguments="{x:Static androidLocal:MainActivity.Instance}" Checked="{Binding Path=IsSwitchOn, Mode=TwoWay, UpdateSourceEventName=CheckedChange}" Text="Enable Entry?" />
 		<win:ToggleSwitch Header="Enable Entry?" OffContent="No" OnContent="Yes" IsOn="{Binding IsSwitchOn, Mode=TwoWay, UpdateSourceEventName=Toggled}" />
-	</StackLayout>
+        <tizenWidget:Check x:Arguments="{x:Static tizenLocal:Program.ElmWindow}" IsChecked="{Binding Path=IsSwitchOn, Mode=TwoWay, UpdateSourceEventName=StateChanged}" Style="toggle" Text="Enable Entry?" />
+    </StackLayout>
 </ContentPage>
