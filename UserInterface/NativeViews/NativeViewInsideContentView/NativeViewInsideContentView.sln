@@ -10,12 +10,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeViewInsideContentView
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeViewInsideContentView.UWP", "UWP\NativeViewInsideContentView.UWP.csproj", "{AE07022A-DB13-4D7E-826D-73FA8CDBCF31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeViewInsideContentView.Tizen", "Tizen\NativeViewInsideContentView.Tizen.csproj", "{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		NativeViewInsideContentView\NativeViewInsideContentView.projitems*{1d8213ea-e79b-44e2-8d17-29f481e63ccc}*SharedItemsImports = 13
-		NativeViewInsideContentView\NativeViewInsideContentView.projitems*{ae07022a-db13-4d7e-826d-73fa8cdbcf31}*SharedItemsImports = 4
 		NativeViewInsideContentView\NativeViewInsideContentView.projitems*{07424905-4b5a-407f-a441-55672bb3785f}*SharedItemsImports = 4
+		NativeViewInsideContentView\NativeViewInsideContentView.projitems*{1d8213ea-e79b-44e2-8d17-29f481e63ccc}*SharedItemsImports = 13
 		NativeViewInsideContentView\NativeViewInsideContentView.projitems*{5e1e9f59-52c5-4687-917c-402b161fe6b1}*SharedItemsImports = 4
+		NativeViewInsideContentView\NativeViewInsideContentView.projitems*{ae07022a-db13-4d7e-826d-73fa8cdbcf31}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,8 +108,35 @@ Global
 		{AE07022A-DB13-4D7E-826D-73FA8CDBCF31}.Release|x86.ActiveCfg = Release|x86
 		{AE07022A-DB13-4D7E-826D-73FA8CDBCF31}.Release|x86.Build.0 = Release|x86
 		{AE07022A-DB13-4D7E-826D-73FA8CDBCF31}.Release|x86.Deploy.0 = Release|x86
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|x64.Build.0 = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Debug|x86.Build.0 = Debug|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|ARM.Build.0 = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|iPhone.Build.0 = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|x64.ActiveCfg = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|x64.Build.0 = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|x86.ActiveCfg = Release|Any CPU
+		{E185B6C4-5FD3-4875-AB45-FE5BABD4E021}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFA584E6-000F-4C09-9029-AE78F27F808D}
 	EndGlobalSection
 EndGlobal
