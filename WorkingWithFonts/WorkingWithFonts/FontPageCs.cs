@@ -29,13 +29,15 @@ namespace WorkingWithFonts
             {
                 Text = "Hello, Xamarin.Forms!",
                 FontFamily = Device.RuntimePlatform == Device.iOS ? "Lobster-Regular" :
-                                   Device.RuntimePlatform == Device.Android ? "Lobster-Regular.ttf#Lobster-Regular" : "Assets/Fonts/Lobster-Regular.ttf#Lobster",
+                                   Device.RuntimePlatform == Device.Android ? "Lobster-Regular.ttf#Lobster-Regular" : 
+								   Device.RuntimePlatform == "Tizen" ? "Lobster" : "Assets/Fonts/Lobster-Regular.ttf#Lobster",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
 
             };
             label.FontSize = Device.RuntimePlatform == Device.iOS ? 24 :
-                Device.RuntimePlatform == Device.Android ? Device.GetNamedSize(NamedSize.Medium, label) : Device.GetNamedSize(NamedSize.Large, label);
+                Device.RuntimePlatform == Device.Android ? Device.GetNamedSize(NamedSize.Medium, label) : 
+				Device.RuntimePlatform == "Tizen" ? Device.GetNamedSize(NamedSize.Medium, label) : Device.GetNamedSize(NamedSize.Large, label);
 
             var labelBold = new Label
             {
