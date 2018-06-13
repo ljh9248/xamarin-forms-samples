@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithColors.Android",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithColors.UWP", "UWP\WorkingWithColors.UWP.csproj", "{226A780D-5EF5-4BDE-A879-9B1DAA6D3D4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithColors.Tizen", "WorkingWithColors.Tizen\WorkingWithColors.Tizen.csproj", "{7FA1466E-C62E-46F6-9BC6-7C5CA09129E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithColors.Tizen", "Tizen\WorkingWithColors.Tizen.csproj", "{7FA1466E-C62E-46F6-9BC6-7C5CA09129E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
