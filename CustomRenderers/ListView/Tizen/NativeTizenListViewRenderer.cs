@@ -17,7 +17,7 @@ namespace CustomRenderer.Tizen
         {
             if (Control == null)
             {
-                nativeList = new NListView(Forms.Context.MainWindow)
+                nativeList = new NListView(Forms.NativeParent)
                 {
                     SelectionMode = GenItemSelectionMode.Always,
                 };
