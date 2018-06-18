@@ -4,7 +4,7 @@
 	<IsFullApplication>false</IsFullApplication>
 	<Level>Beginner</Level>
 	<Tags>Xamarin.Forms</Tags>
-	<SupportedPlatforms>iOS, Android, Windows</SupportedPlatforms>
+	<SupportedPlatforms>iOS, Android, Windows, Tizen</SupportedPlatforms>
 	<LicenseRequirement>Indie</LicenseRequirement>
 	<Gallery>true</Gallery>
 	<Brief>This sample demonstrates how to consume Xamarin.Forms ContentPages in native Xamarin.iOS, Xamarin.Android, and Universal Windows Platform projects, and how to navigate between them.</Brief>
