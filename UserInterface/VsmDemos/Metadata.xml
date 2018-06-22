@@ -4,7 +4,7 @@
 	<IsFullApplication>false</IsFullApplication>
 	<Level>Intermediate</Level>
 	<Tags>Xamarin.Forms, User Interface</Tags>
-	<SupportedPlatforms>Android, iOS, Windows</SupportedPlatforms>
+	<SupportedPlatforms>Android, iOS, Windows, Tizen</SupportedPlatforms>
 	<LicenseRequirement>Indie</LicenseRequirement>
 	<Gallery>true</Gallery>
 	<Brief>Demonstrates some common usages of the Visual State Manager (VSM).</Brief>
