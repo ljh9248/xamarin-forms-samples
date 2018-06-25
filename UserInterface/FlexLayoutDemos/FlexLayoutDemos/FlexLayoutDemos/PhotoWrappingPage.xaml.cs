@@ -28,7 +28,8 @@ namespace FlexLayoutDemos
 
         async void LoadBitmapCollection()
         {
-            int imageDimension = Device.RuntimePlatform == Device.iOS ||
+            int imageDimension = Device.RuntimePlatform == Device.Tizen ||
+                                 Device.RuntimePlatform == Device.iOS ||
                                  Device.RuntimePlatform == Device.Android ? 240 : 120;
 
             string urlSuffix = String.Format("?width={0}&height={0}&mode=max", imageDimension);
