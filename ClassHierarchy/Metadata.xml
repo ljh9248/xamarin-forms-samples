@@ -4,7 +4,7 @@
 	<IsFullApplication>true</IsFullApplication>
 	<Level>Intermediate</Level>
 	<Tags>User Interface, Xamarin.Forms, liveplayer</Tags>
-	<SupportedPlatforms>Android, iOS, windows-rt</SupportedPlatforms>
+	<SupportedPlatforms>Android, iOS, windows-rt, Tizen</SupportedPlatforms>
 	<LicenseRequirement>Indie</LicenseRequirement>
 	<Gallery>true</Gallery>
 	<Brief>Demonstrates a scrollable hierarchy of all Xamarin.Forms classes, structures, and enumerations.</Brief>
