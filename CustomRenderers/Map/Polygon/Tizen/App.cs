@@ -12,7 +12,9 @@
         {
             var app = new Program();
             global::Xamarin.Forms.Platform.Tizen.Forms.Init(app);
-            global::Xamarin.FormsMaps.Init("HERE", "Enter-your HERE maps key");
+            // Please follow this guide to get your HERE map key 
+            // https://developer.tizen.org/development/guides/native-application/location-and-sensors/maps-and-maps-service/getting-here-maps-credentials
+            global::Xamarin.FormsMaps.Init("HERE", "Please enter your HERE map key");
             app.Run(args);
         }
     }

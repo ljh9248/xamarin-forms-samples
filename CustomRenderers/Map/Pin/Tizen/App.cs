@@ -13,7 +13,9 @@ namespace CustomRenderer.TizenMobile
         {
             var app = new Program();
             global::Xamarin.Forms.Platform.Tizen.Forms.Init(app);
-            Xamarin.FormsMaps.Init("HERE", "HERE-ENTER_YOUR_KEY_HERE");
+            // Please follow this guide to get your HERE map key 
+            // https://developer.tizen.org/development/guides/native-application/location-and-sensors/maps-and-maps-service/getting-here-maps-credentials
+            Xamarin.FormsMaps.Init("HERE", "Please enter your HERE map key");
             app.Run(args);
         }
     }
