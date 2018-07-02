@@ -4,7 +4,7 @@
     <IsFullApplication>true</IsFullApplication>
     <Level>Intermediate</Level>
     <Tags>Xamarin.Forms, Graphics, Animation</Tags>
-    <SupportedPlatforms>Android, iOS, Windows</SupportedPlatforms>
+    <SupportedPlatforms>Android, iOS, Windows, Tizen</SupportedPlatforms>
     <LicenseRequirement>Indie</LicenseRequirement>
     <Brief>A cat with a clock in its belly</Brief>
     <Gallery>true</Gallery>
