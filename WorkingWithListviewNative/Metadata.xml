@@ -4,7 +4,7 @@
 	<IsFullApplication>false</IsFullApplication>
 	<Level>Advanced</Level>
 	<Tags>User Interface, Xamarin.Forms</Tags>
-	<SupportedPlatforms>iOS, Android, Windows</SupportedPlatforms>
+	<SupportedPlatforms>iOS, Android, Windows, Tizen</SupportedPlatforms>
 	<LicenseRequirement>Indie</LicenseRequirement>
 	<Gallery>false</Gallery>
 	<Brief>This sample demonstrate how to build a Xamarin.Forms custom renderer to replace ListView with native controls (such as UITableView and Android's ListView).</Brief>

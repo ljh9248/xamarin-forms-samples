@@ -8,6 +8,7 @@ namespace WorkingWithListviewNative
     ///    iOS :           UITableView
     ///    Android :       ListView   (do not confuse with Xamarin.Forms ListView)
     ///    Windows Phone : ListView
+    ///    Tizen :         ElmSharp.List
     ///
     /// It uses a built-in row/cell class provided by the native platform
     /// and is therefore faster than building a custom ViewCell in Xamarin.Forms.

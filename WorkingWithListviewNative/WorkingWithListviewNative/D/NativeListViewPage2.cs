@@ -7,6 +7,7 @@ namespace WorkingWithListviewNative
 	///    iOS :           UITableView
 	///    Android :       ListView   (do not confuse with Xamarin.Forms ListView)
 	///    Windows Phone : ListView
+	///    Tizen         : Native.ListView
 	///
 	/// It uses a CUSTOM row/cell class that is defined natively which
 	/// is still faster than a Xamarin.Forms-defined ViewCell subclass.
