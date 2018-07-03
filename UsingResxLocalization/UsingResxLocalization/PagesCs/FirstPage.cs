@@ -32,6 +32,9 @@ namespace UsingResxLocalization
                 case Device.Android:
                     flag.Source = ImageSource.FromFile("flag.png");
                     break;
+                case Device.Tizen:
+                    flag.Source = ImageSource.FromFile("flag.png");
+                    break;
                 case Device.UWP:
                     flag.Source = ImageSource.FromFile("Assets/Images/flag.png");
                     break;

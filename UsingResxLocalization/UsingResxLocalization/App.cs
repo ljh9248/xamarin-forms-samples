@@ -16,7 +16,7 @@ namespace UsingResxLocalization
             System.Diagnostics.Debug.WriteLine("====================================");
 
             // This lookup NOT required for Windows platforms - the Culture will be automatically set
-            if (Device.RuntimePlatform == Device.iOS || Device.RuntimePlatform == Device.Android)
+            if (Device.RuntimePlatform == Device.iOS || Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.Tizen)
             {
                 // determine the correct, supported .NET culture
                 var ci = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
