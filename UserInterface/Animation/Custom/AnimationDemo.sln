@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationDemo", "AnimationDemo\AnimationDemo.csproj", "{3B06B297-A6FB-4692-9EEE-36568466EE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimationDemo", "AnimationDemo\AnimationDemo.csproj", "{3B06B297-A6FB-4692-9EEE-36568466EE89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationDemo.iOS", "iOS\AnimationDemo.iOS.csproj", "{6C314D9C-B04A-4878-AFE4-8910058E6C28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationDemo.Droid", "Droid\AnimationDemo.Droid.csproj", "{36646335-2CF1-4971-887C-CFE3CAA6A89C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationDemo.UWP", "UWP\AnimationDemo.UWP.csproj", "{8F1C74C6-CE6C-4390-889F-242AD2579906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationDemo.Tizen", "Tizen\AnimationDemo.Tizen.csproj", "{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,8 +135,39 @@ Global
 		{8F1C74C6-CE6C-4390-889F-242AD2579906}.Release|x86.ActiveCfg = Release|x86
 		{8F1C74C6-CE6C-4390-889F-242AD2579906}.Release|x86.Build.0 = Release|x86
 		{8F1C74C6-CE6C-4390-889F-242AD2579906}.Release|x86.Deploy.0 = Release|x86
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|ARM.Build.0 = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|x64.Build.0 = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Debug|x86.Build.0 = Debug|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|ARM.Build.0 = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|iPhone.Build.0 = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|x64.ActiveCfg = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|x64.Build.0 = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{45E8839D-E830-4CAF-9FD2-F7C8089A36CA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF5F55F9-06D7-4071-A704-EE22D11B53DC}
 	EndGlobalSection
 EndGlobal
