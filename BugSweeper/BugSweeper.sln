@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25402.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugSweeper", "BugSweeper\BugSweeper\BugSweeper.csproj", "{853D3300-5056-4005-9E71-E5D933889581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugSweeper", "BugSweeper\BugSweeper\BugSweeper.csproj", "{853D3300-5056-4005-9E71-E5D933889581}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugSweeper.iOS", "BugSweeper\BugSweeper.iOS\BugSweeper.iOS.csproj", "{96C9E490-7BFD-4E51-AFF2-9E5C411C7D86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugSweeper.Android", "BugSweeper\BugSweeper.Android\BugSweeper.Android.csproj", "{2ECE01CE-B0FD-4D55-B92F-6A299528748E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugSweeper.UWP", "BugSweeper\BugSweeper.UWP\BugSweeper.UWP.csproj", "{00F33249-4F2C-4FFB-B428-740044D3725B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugSweeper.Tizen", "BugSweeper\BugSweeper.Tizen\BugSweeper.Tizen.csproj", "{5F5A9364-DD81-4245-9105-6113BAE50511}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,9 +265,68 @@ Global
 		{00F33249-4F2C-4FFB-B428-740044D3725B}.Release|x86.ActiveCfg = Release|x86
 		{00F33249-4F2C-4FFB-B428-740044D3725B}.Release|x86.Build.0 = Release|x86
 		{00F33249-4F2C-4FFB-B428-740044D3725B}.Release|x86.Deploy.0 = Release|x86
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|ARM.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|x86.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Ad-Hoc|x86.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|ARM.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|ARM.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|x64.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|x86.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.AppStore|x86.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|x64.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|ARM.Build.0 = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|iPhone.Build.0 = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|x64.ActiveCfg = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|x64.Build.0 = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F5A9364-DD81-4245-9105-6113BAE50511}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAAF5C6D-F436-47FA-9D12-BE19AA5B51C5}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = BugSweeper\BugSweeper.iOS\BugSweeper.iOS.csproj
