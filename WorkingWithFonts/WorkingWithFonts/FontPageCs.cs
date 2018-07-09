@@ -25,19 +25,45 @@ namespace WorkingWithFonts
     {
         public FontPageCs()
         {
+            string labelFontFamily;
+            switch (Device.RuntimePlatform)
+            {
+                case Device.iOS:
+                    labelFontFamily = "Lobster-Regular";
+                    break;
+                case Device.Android:
+                    labelFontFamily = "Lobster-Regular.ttf#Lobster-Regular";
+                    break;
+                case Device.Tizen:
+                    labelFontFamily = "Lobster";
+                    break;
+                default:
+                    labelFontFamily = "Assets/Fonts/Lobster-Regular.ttf#Lobster";
+                    break;
+            }
+
             var label = new Label
             {
                 Text = "Hello, Xamarin.Forms!",
-                FontFamily = Device.RuntimePlatform == Device.iOS ? "Lobster-Regular" :
-                                   Device.RuntimePlatform == Device.Android ? "Lobster-Regular.ttf#Lobster-Regular" : 
-								   Device.RuntimePlatform == "Tizen" ? "Lobster" : "Assets/Fonts/Lobster-Regular.ttf#Lobster",
+                FontFamily = labelFontFamily,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
-
             };
-            label.FontSize = Device.RuntimePlatform == Device.iOS ? 24 :
-                Device.RuntimePlatform == Device.Android ? Device.GetNamedSize(NamedSize.Medium, label) : 
-				Device.RuntimePlatform == "Tizen" ? Device.GetNamedSize(NamedSize.Medium, label) : Device.GetNamedSize(NamedSize.Large, label);
+
+            switch (Device.RuntimePlatform)
+            {
+                case Device.iOS:
+                    label.FontSize = 24;
+                    break;
+                case Device.Android:
+                    // fall through
+                case Device.Tizen:
+                    label.FontSize = Device.GetNamedSize(NamedSize.Medium, label);
+                    break;
+                default:
+                    label.FontSize = Device.GetNamedSize(NamedSize.Large, label);
+                    break;
+            }
 
             var labelBold = new Label
             {
