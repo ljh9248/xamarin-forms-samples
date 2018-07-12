@@ -24,10 +24,10 @@
   <!-- Include Nuget Package for Tizen Project building -->
   <ItemGroup>
     <PackageReference Include="Tizen.NET" Version="4.0.0">
-     <ExcludeAssets>Runtime</ExcludeAssets>
+      <ExcludeAssets>Runtime</ExcludeAssets>
     </PackageReference>
     <PackageReference Include="Tizen.NET.Sdk" Version="1.0.1" />
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
     <PackageReference Include="Xamarin.Forms.Maps.Tizen" Version="2.4.0.18342" />
   </ItemGroup>
   <ItemGroup>
