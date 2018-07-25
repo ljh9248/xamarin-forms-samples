@@ -17,7 +17,7 @@ namespace CustomRenderer.Tizen
             {
                 Chromium.Initialize();
                 Forms.Context.Terminated += (sender, args) => Chromium.Shutdown();
-                var webView = new WebView(Forms.Context.MainWindow);
+                var webView = new WebView(Forms.NativeParent);
                 webView.GetSettings().JavaScriptEnabled = true;
                 webView.LoadFinished += OnWebLoadCompleted;
                 SetNativeControl(webView);
@@ -45,7 +45,8 @@ namespace CustomRenderer.Tizen
 
         private void OnScriptMessage(JavaScriptMessage message)
         {
-            Element.InvokeAction(message.GetBodyAsString());
+            string data = message.GetBodyAsString();
+            Xamarin.Forms.Device.BeginInvokeOnMainThread(() => Element.InvokeAction(data));
         }
     }
 }
