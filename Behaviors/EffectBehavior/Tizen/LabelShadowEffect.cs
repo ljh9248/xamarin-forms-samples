@@ -30,7 +30,12 @@ namespace EffectsDemo.Tizen
 
         private void ApplyShadowEffect()
         {
-            var textblock = (Control as ElmSharp.Label).EdjeObject["elm.text"];
+            var textblock = (Control as ElmSharp.Label)?.EdjeObject["elm.text"];
+            if (textblock == null)
+            {
+                return;
+            }
+
             var sb = new StringBuilder(textblock.TextStyle);
 
             sb.Remove(sb.Length - 1, 1);  // remove '

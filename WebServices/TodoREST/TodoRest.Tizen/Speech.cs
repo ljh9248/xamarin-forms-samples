@@ -36,6 +36,8 @@ namespace TodoRest.Tizen
                 speaker.AddText(text, speaker.DefaultVoice.Language, (int)speaker.DefaultVoice.VoiceType, speaker.GetSpeedRange().Normal);
                 speaker.Play();
             }
+
+            speaker.Dispose();
         }
     }
 }

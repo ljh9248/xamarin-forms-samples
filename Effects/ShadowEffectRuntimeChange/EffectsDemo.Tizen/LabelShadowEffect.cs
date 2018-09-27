@@ -53,7 +53,7 @@ namespace EffectsDemo.Tizen
             {
                 return "top_left";
             }
-            else if (distanceX == 0.0 && distanceY < 0.0)
+            else if (distanceX.Equals(0.0) && distanceY < 0.0)
             {
                 return "top";
             }
@@ -61,7 +61,7 @@ namespace EffectsDemo.Tizen
             {
                 return "top_right";
             }
-            else if (distanceX > 0.0 && distanceY == 0.0)
+            else if (distanceX > 0.0 && distanceY.Equals(0.0))
             {
                 return "right";
             }
@@ -69,7 +69,7 @@ namespace EffectsDemo.Tizen
             {
                 return "bottom_right";
             }
-            else if (distanceX == 0.0 && distanceY > 0.0)
+            else if (distanceX.Equals(0.0) && distanceY > 0.0)
             {
                 return "bottom";
             }
@@ -77,7 +77,7 @@ namespace EffectsDemo.Tizen
             {
                 return "bottom_left";
             }
-            else if (distanceX < 0.0 && distanceY == 0.0)
+            else if (distanceX < 0.0 && distanceY.Equals(0.0))
             {
                 return "left";
             }
@@ -90,7 +90,12 @@ namespace EffectsDemo.Tizen
 
         private void ApplyShadowEffect()
         {
-            var textblock = (Control as ElmSharp.Label).EdjeObject["elm.text"];
+            var textblock = (Control as ElmSharp.Label)?.EdjeObject["elm.text"];
+            if (textblock == null)
+            {
+                return;
+            }
+
             var sb = new StringBuilder(textblock.TextStyle);
 
             sb.Remove(sb.Length - 1, 1);  // remove '
