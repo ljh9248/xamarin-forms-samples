@@ -26,15 +26,16 @@ namespace TodoRest.Tizen
 
         public async void Speak(string text)
         {
-            TtsClient speaker = new TtsClient();
-
-            if (speaker.CurrentState == State.Created)
-                await Prepare(speaker);
-
-            if (speaker.CurrentState == State.Ready)
+            using (TtsClient speaker = new TtsClient())
             {
-                speaker.AddText(text, speaker.DefaultVoice.Language, (int)speaker.DefaultVoice.VoiceType, speaker.GetSpeedRange().Normal);
-                speaker.Play();
+                if (speaker.CurrentState == State.Created)
+                    await Prepare(speaker);
+
+                if (speaker.CurrentState == State.Ready)
+                {
+                    speaker.AddText(text, speaker.DefaultVoice.Language, (int)speaker.DefaultVoice.VoiceType, speaker.GetSpeedRange().Normal);
+                    speaker.Play();
+                }
             }
         }
     }
